@@ -1,0 +1,73 @@
+@keyframes bola {
+
+    0% {background-color: red;}
+    25% {background-color: pink;}
+    50% {background-color: aqua;}
+    75%{background-color: white;}
+    100% {background-color: red;}
+    
+}
+
+body{
+    background-color: black;
+}
+.bolaTorta{
+    height: auto;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+}
+.bola{
+    width: 150px;
+    height: 150px; 
+    background-color: black;
+    animation-name: bola;
+    margin-left: auto;
+    margin-right: auto; 
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    text-align: center;
+}
+
+.cumprido{
+    height: 500px;
+}
+
+.bola2{
+    display: list-item;
+    background-color: black;
+    display: inline-block;
+    border-radius: 0% 50% 50% 50%;
+    padding: -1px;
+    border: 0px;
+    margin: 0px;
+    animation-name: bola;
+    animation-iteration-count: infinite;
+
+}
+.bola1{
+    display: list-item;
+    background-color: black;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto; 
+    border-radius: 50% 0% 50% 50%;
+    padding: -1px;
+    border: 0px;
+    margin: 0px;
+    animation-name: bola;
+    animation-iteration-count: infinite;
+
+}
+.cabeca{
+    border-radius: 50% 50% 0% 0%;
+    animation-name: bola;
+    animation-iteration-count: infinite;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.texto{
+    text-align: center;
+    font-size: 100px;
+    color: aliceblue;
+}
