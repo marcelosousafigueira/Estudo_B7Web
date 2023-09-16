@@ -11,13 +11,13 @@
 body{
     background-color: black;
 }
-.bolaTorta{
+.bbolaTorta{
     height: auto;
     margin-left: auto;
     margin-right: auto; 
     text-align: center;
 }
-.bola{
+.bbola{
     width: 150px;
     height: 150px; 
     background-color: black;
@@ -33,7 +33,7 @@ body{
     height: 500px;
 }
 
-.bola2{
+.bbola2{
     display: list-item;
     background-color: black;
     display: inline-block;
@@ -45,7 +45,7 @@ body{
     animation-iteration-count: infinite;
 
 }
-.bola1{
+.bbola1{
     display: list-item;
     background-color: black;
     display: inline-block;
