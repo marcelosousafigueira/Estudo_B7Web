@@ -1,13 +1,15 @@
-import {Circle,Square} from "@/components/Geo";
-
-
+import { Notas } from '@/components/Notas';
+import { StudentTable } from '@/components/StudentTable';
+import {peopleList} from '@/data/peopleList';
+import { students } from '@/data/students';
 
 const Page = () => {
+
+ 
+
   return(
-    <div>
-      <h1>ola mundo </h1>
-      <Square/>
-      <Circle />
+    <div className="container mx-auto">
+    <StudentTable students={students}/>
     </div>
     
   );
